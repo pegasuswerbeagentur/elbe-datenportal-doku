@@ -2,7 +2,7 @@
 
 ## Testüberschrift
 
-hier ist ein Inhalt
+hier ist ein Inhalt!
 
 ## Inhalt
 
