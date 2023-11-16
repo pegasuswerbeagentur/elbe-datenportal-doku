@@ -2,6 +2,3 @@ title: FGG Elbe Datenportal Dokumentation
 theme: just-the-docs
 
 url: https://pegasuswerbeagentur.github.io/elbe-datenportal-doku
-
-gems:
-  - jekyll-default-layout
