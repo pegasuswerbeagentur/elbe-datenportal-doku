@@ -3,5 +3,5 @@ theme: just-the-docs
 
 url: https://pegasuswerbeagentur.github.io/elbe-datenportal-doku
 
-plugins:
+gems:
   - jekyll-default-layout
