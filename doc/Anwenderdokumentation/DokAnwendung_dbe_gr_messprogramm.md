@@ -56,6 +56,7 @@ nav_order: 2
 
 
 ## <a id="1-Anmeldung"></a>1 Anmeldung
+{:toc}
 
 Der Zugang zum internen Teil des Datenbanksystems, Bearbeitungen des Datenbestands sowie Änderungen an Systemeinstellungen sind auf einen festgelegten Benutzerkreis beschränkt. Die entsprechenden Funktionalitäten stehen erst nach einer Anmeldung durch Eingabe des Benutzers sowie des Kennworts zur Verfügung. Die entsprechenden Zugangsdaten werden durch den Administrator auf Anfrage an Personen innerhalb der Behördenstruktur der FGG Elbe vergeben.
 
