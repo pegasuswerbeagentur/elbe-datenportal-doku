@@ -1,11 +1,11 @@
 @media (min-width: 66.5rem) {
   .side-bar {
-    width: calc((65% - 66.5rem) / 2 + 16.5rem);
+    width: calc((56% - 66.5rem) / 2 + 16.5rem);
     min-width: 16.5rem;
   }
 
   .main {
-    margin-left: Max(16.5rem, calc((65% - 66.5rem) / 2 + 16.5rem));
+    margin-left: Max(16.5rem, calc((56% - 66.5rem) / 2 + 16.5rem));
   }
 }
 
@@ -30,4 +30,12 @@ a, a:not([class]) {
 
 a:hover, a:focus {
   color: $fgg-orange;
+}
+
+.side-bar {
+  background: #D2E8F3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #151E83;
 }
