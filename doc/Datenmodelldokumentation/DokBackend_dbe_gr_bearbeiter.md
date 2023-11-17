@@ -2,6 +2,7 @@
 layout: default
 title: Bearbeiter
 parent: Datenmodelldokumentation
+grand_parent: Dokumentation des Datenportals der FGG Elbe
 nav_order: 2
 ---
 
