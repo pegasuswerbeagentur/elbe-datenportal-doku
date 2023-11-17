@@ -55,14 +55,14 @@ nav_order: 2
 - [7 Persönliche Daten / Kennwort](#7-Persoenliche-Daten-Kennwort)
 
 
-## <a id="1-Anmeldung"></a>1 Anmeldung
+## <a id="1-Anmeldung"></a>1. Anmeldung
 {:toc}
 
 Der Zugang zum internen Teil des Datenbanksystems, Bearbeitungen des Datenbestands sowie Änderungen an Systemeinstellungen sind auf einen festgelegten Benutzerkreis beschränkt. Die entsprechenden Funktionalitäten stehen erst nach einer Anmeldung durch Eingabe des Benutzers sowie des Kennworts zur Verfügung. Die entsprechenden Zugangsdaten werden durch den Administrator auf Anfrage an Personen innerhalb der Behördenstruktur der FGG Elbe vergeben.
 
 Das Kennwort kann durch den Benutzer geändert werden. Liegen Ihnen Ihre Zugangsdaten nicht mehr vor, wenden Sie sich bitte an die Geschäftsstelle der FGG Elbe (s. Seite Kontakt).
 
-## <a id="2-Messprogramme"></a>2 Messprogramme
+## <a id="2-Messprogramme"></a>2. Messprogramme
 
 Über dieses Menüfeld sind die jährlichen Messprogramme (seit 2012 kurz als KEMP bezeichnet) der FGG Elbe erreichbar. Daraus lässt sich auch der für die entsprechenden Messjahre zu erwartende Datenumfang einordnen.
 
@@ -148,7 +148,7 @@ Besondere Tabellentypen:
 a) KEMP
 Die Tabellenblätter werden entsprechend der Einträge für die jeweiligen Teilprogramme in Anlehnung an die Ausgestaltung der Vorjahre ausgegeben.
 
-## <a id="3-Messstellen"></a>3 Messstellen
+## <a id="3-Messstellen"></a>3. Messstellen
 
 Die Seite "Messstellen" des FIS ermöglicht die Suche nach Messstellen bzw. Entnahmestellen nach verschiedenen Kriterien. Nach Auswahl eines ersten Kriteriums stehen für die weiteren Kriterien nur noch die Werte zur Verfügung, die bei der Kombination aller zuvor bereits gewählten Bedingungen verbleiben.
 
@@ -176,7 +176,7 @@ In der Elbe gibt es aus historischen Gründen an einigen Flussabschnitten (z.B. 
 
 Die Messstellen der Längsprofile haben in der Regel eigenständige Bezeichnungen und Verortungen, um die teilweise sehr weit zurückreichenden Zeitreihen beizubehalten. Die Längsprofile per Schiff wurden in der Tideelbe bereits ab 1953 durchgeführt und bestehen in Teilen noch als Längsprofil zum Sauerstofftal und zur Brackwasserzone fort. Die Beprobung der gesamten Tideelbe im Längsprofil wurde ab 1979 dann per Hubschrauber durchgeführt, um alle Messstellen etwa in der gleichen Tidephase (bei Ebbstrom) beproben zu können. Bis 2011 fanden Längsprofilbefliegungen auch regelmäßig in der tidefreien Elbe bis zur Elbequelle in Tschechien statt.
 
-## <a id="4-Datenabruf"></a>4 Datenabruf
+## <a id="4-Datenabruf"></a>4. Datenabruf
 
 Der erste Schritt bei der Abfrage von Messwerten aus dem FIS erfolgt über die Auswahl einer Gruppe von Messgrößen (Qualitätskomponenten der WRRL und sonstige Gruppen).
 
@@ -454,7 +454,7 @@ Das Ergebnis wird auf eine Ganzzahl aufgerundet.
 
 Zahlentafeln können im FIS ab dem Messjahr 2011 generiert werden. Für die vorangehenden Messjahre sind Zahlentafeln im pdf-Format auf der Homepage der FGG Elbe unter https://www.fgg-elbe.de/elbe-datenportal/gewaesserguete.html verfügbar.
 
-## <a id="5-Abfrage-Editor"></a>5 Abfrage-Editor
+## <a id="5-Abfrage-Editor"></a>5. Abfrage-Editor
 
 Über den Abfrageeditor können speziell angepasste Datenzusammenstellungen aus dem FIS abgerufen werden. Im Gegensatz zu den auf Qualitätskomponenten bezogenen Standard-Formularen für den Datenabruf erfolgt keine Beschränkung der Auswahlparameter und keine Vorausschau auf die Ergebnismenge, so dass auch Kriterienkombinationen ohne Ergebnismenge möglich sind.
 
@@ -490,7 +490,7 @@ Die Durchführung der Prüfroutine kann sich auf den Status von Messwerten auswi
 
 Durch die ergänzende Kennzeichnung mit "*" können die auffälligen Werte unter Erhalt der bestehenden Statuszuweisungen erhalten bleiben. Dies ist erforderlich, da die Statusangaben durch Bearbeiter unter fachlichen Aspekten gesetzt werden, die vom Ergebnis der Plausibilitsprüfung unabhängig sein können.
 
-## <a id="6-Datenimport"></a>6 Datenimport
+## <a id="6-Datenimport"></a>6. Datenimport
 
 Über die Funktionen der Seite "Datenimport" können Messwerte in das FIS eingespielt werden. Dazu wird eine entsprechend formatierte Messwertdatei auf den Server des FIS hochgeladen und dort der eigentliche Importvorgang ausgelöst.
 
@@ -590,7 +590,7 @@ Nach Abschluss eines Importvorgangs wird eine Log-Datei erstellt. Die Log-Datei 
 
 Die Log-Datei eines Importvorgangs kann in der Liste der Importdateien durch Anklicken der nebenstehenden Info-Schaltfläche aufgerufen werden.
 
-## <a id="7-Persoenliche-Daten-Kennwort"></a>7 Persönliche Daten / Kennwort
+## <a id="7-Persoenliche-Daten-Kennwort"></a>7. Persönliche Daten / Kennwort
 
 Über diese Seite können die persönlichen Daten eingesehen werden. Änderungen der persönlichen Daten sind der FGG Elbe bzw. dem Datenbank-Administrator mitzuteilen.
 
