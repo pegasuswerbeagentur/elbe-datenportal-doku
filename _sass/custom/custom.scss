@@ -1,0 +1,29 @@
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: calc((65% - 66.5rem) / 2 + 16.5rem);
+    min-width: 16.5rem;
+  }
+
+  .main {
+    margin-left: Max(16.5rem, calc((65% - 66.5rem) / 2 + 16.5rem));
+  }
+}
+
+@media (min-width: 50rem) {
+  .main {
+    max-width: 82rem;
+  }
+}
+
+.site-title {
+  font-size: 1rem !important;
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  color: $fgg-orange;
+}
