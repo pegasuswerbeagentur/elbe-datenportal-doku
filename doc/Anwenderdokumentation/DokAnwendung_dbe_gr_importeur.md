@@ -1,4 +1,11 @@
-# Anwenderdokumentation
+---
+layout: default
+title: Importeur
+parent: Anwenderdokumentation
+nav_order: 2
+---
+
+# Importeur
 
 ## Inhalt
 
@@ -208,13 +215,13 @@ Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarb
 Über den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Messwerten zu chemischen, chemisch-physikalischen und hydromorphologischen Qualitätskomponeten herunterladen, in der Sie auch detaillierte Beschreibungen zur erforderlichen Strukturierung und Formatierung finden. Wichtiger Hinweis: Die ersten beiden Zeilen sind für Überschriften reserviert und werden beim Import nicht ausgelesen!
 
 
-[Excel-Vorlage zum Import (Chemie)](abbildungen/Vorlage_Messwertimport_Chemie.xls) 
+[Excel-Vorlage zum Import (Chemie)](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Messwertimport_Chemie.xls) 
 
 Überden den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Fangdaten aus Befischungen herunterladen.
 Wichtiger Hinweis: Die ersten acht Zeilen sind für Überschriften, Erläuterungen und Beispiele reserviert und werden beim Import nicht ausgelesen!
 
 
-[Excel-Vorlage zum Import (Fangdaten Befischung)](abbildungen/Vorlage_Fangdatenimport_Fische.xls) 
+[Excel-Vorlage zum Import (Fangdaten Befischung)](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Fangdatenimport_Fische.xls) 
 
 Die Beschreibung weiterer Formate bzw. entsprechende Vorlagen können Sie bei der FGG Elbe abfragen.
 

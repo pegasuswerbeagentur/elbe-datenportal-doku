@@ -1,4 +1,11 @@
-# Anwenderdokumentation
+---
+layout: default
+title: Admin
+parent: Anwenderdokumentation
+nav_order: 2
+---
+
+# Admin
 
 ## Inhalt
 
@@ -123,7 +130,7 @@ In die Berechnung von schwebstoffgebundenen Frachten geht neben der Stoffkonzent
 Details zur Berechnungsmethodik können Sie dem folgenden Dokument entnehmen:
 
 
-[Methodik zur Berechnung der Jahresfrachten](abbildungen/Methodik_Frachtberechnung.pdf)
+[Methodik zur Berechnung der Jahresfrachten](/elbe-datenportal-doku/doc/abbildungen/Methodik_Frachtberechnung.pdf)
 
 ##### <a id="3113-tabellen-der-zahlentafeln"></a>3.1.1.3 Tabellen der Zahlentafeln
 
@@ -354,13 +361,13 @@ Soll ein Wert für ein bestimmtes Feld auf alle Datensätze der Auswahl übertra
 Über den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Messwerten zu chemischen, chemisch-physikalischen und hydromorphologischen Qualitätskomponeten herunterladen, in der Sie auch detaillierte Beschreibungen zur erforderlichen Strukturierung und Formatierung finden. Wichtiger Hinweis: Die ersten beiden Zeilen sind für Überschriften reserviert und werden beim Import nicht ausgelesen!
 
 
-[Excel-Vorlage zum Import (Chemie)](abbildungen/Vorlage_Messwertimport_Chemie.xls) 
+[Excel-Vorlage zum Import (Chemie)](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Messwertimport_Chemie.xls) 
 
 Überden den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Fangdaten aus Befischungen herunterladen.
 Wichtiger Hinweis: Die ersten acht Zeilen sind für Überschriften, Erläuterungen und Beispiele reserviert und werden beim Import nicht ausgelesen!
 
 
-[Excel-Vorlage zum Import (Fangdaten Befischung)](abbildungen/Vorlage_Fangdatenimport_Fische.xls) 
+[Excel-Vorlage zum Import (Fangdaten Befischung)](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Fangdatenimport_Fische.xls) 
 
 Die Beschreibung weiterer Formate bzw. entsprechende Vorlagen können Sie bei der FGG Elbe abfragen.
 
@@ -434,7 +441,7 @@ Im Formular der Benutzerrechteverwaltung kann für den in der Benutzerverwaltung
 Die folgende Tabelle führt den Rechteumfang für die im FIS definierten Rollen auf.
 
 
-[Rechteverwaltung FIS)](abbildungen/Rechteverwaltung.pdf) 
+[Rechteverwaltung FIS)](/elbe-datenportal-doku/doc/abbildungen/Rechteverwaltung.pdf) 
 
 ## <a id="9-persönliche-daten--kennwort"></a>9 Persönliche Daten / Kennwort
 

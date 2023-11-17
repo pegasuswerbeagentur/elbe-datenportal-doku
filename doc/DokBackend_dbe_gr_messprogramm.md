@@ -1,3 +1,0 @@
-# Datenmodelldokumentation
-
-## Inhalt

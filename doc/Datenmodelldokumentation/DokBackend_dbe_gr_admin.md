@@ -1,4 +1,11 @@
-# Datenmodelldokumentation
+---
+layout: default
+title: Admin
+parent: Datenmodelldokumentation
+nav_order: 2
+---
+
+# Admin
 
 ## Inhalt
 
@@ -65,7 +72,7 @@
 Das Datenmodell beschreibt die Struktur der Datenhaltung im FIS. Es beinhaltet eine Auflistung der Tabellen und ihrer Inhalte sowie die über die Verknüpfung von Feldern definierten Relationen zwischen den Tabellen. Die Tabellen sind bezüglich ihrer Inhalte in vier Gruppen gegliedert. Eine vollständige Darstellung der Tabellenstrukturen und der Abhängigkeiten ist im folgenden Diagramm gegeben.
 
 
-[Datenmodell des FIS der FGG Elbe](abbildungen/Datenmodell.pdf)
+[Datenmodell des FIS der FGG Elbe](/elbe-datenportal-doku/doc/abbildungen/Datenmodell.pdf)
 
 Das Datenmodell vereinigt die Strukturen der frühreren, getrennten Datenbanken "DB Gewässergüte" und "DB Fische". Die Struktur des Datenmodells berücksichtigt die Zielsetzung, ein Höchstmaß an Flexibilität zur einfachen Durchführung zukünftiger Anpassungen (z.B. Parametererweiterungen, Grenzwertanpassungen) zu bieten. Die Verortung von Informationen erfolgt stringend über Koordinatenangaben im System UTM32U.
 

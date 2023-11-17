@@ -1,4 +1,11 @@
-# Anwenderdokumentation
+---
+layout: default
+title: Bearbeiter
+parent: Anwenderdokumentation
+nav_order: 2
+---
+
+# Bearbeiter
 
 ## Inhalt
 
@@ -9,9 +16,9 @@
 - [3 Datenabruf](#3-Datenabruf)
   - [3.1 Allgemein](#3-1-Allgemein)
     - [3.1.1 Ergebnisabruf Tabelle](#3-1-1-Ergebnisabruf-Tabelle)
-    - [3.1.1.1 Grenzwertüberschreitungen](#3-1-1-1-Grenzwertueberschreitungen)
-    - [3.1.1.2 Frachtberechnung](#3-1-1-2-Frachtberechnung)
-    - [3.1.1.3 Tabellen der Zahlentafeln](#3-1-1-3-Tabellen-der-Zahlentafeln)
+      - [3.1.1.1 Grenzwertüberschreitungen](#3-1-1-1-Grenzwertueberschreitungen)
+      - [3.1.1.2 Frachtberechnung](#3-1-1-2-Frachtberechnung)
+      - [3.1.1.3 Tabellen der Zahlentafeln](#3-1-1-3-Tabellen-der-Zahlentafeln)
     - [3.1.2 Ergebnisabruf Grafik](#3-1-2-Ergebnisabruf-Grafik)
   - [3.2 Auswahl Qualitätskomponenten](#3-2-Auswahl-Qualitaetskomponenten)
     - [3.2.1 Biologische QK](#3-2-1-Biologische-QK)
@@ -20,14 +27,14 @@
       - [3.2.1.3 Phytoplankton](#3-2-1-3-Phytoplankton)
       - [3.2.1.4 Makrophyten/Phytobenthos](#3-2-1-4-Makrophyten-Phytobenthos)
       - [3.2.1.5 Makrozoobenthos](#3-2-1-5-Makrozoobenthos)
-    - [3.3.1 Chemische QK](#3-3-1-Chemische-QK)
-      - [3.3.1.1 Schadst/Bakt in Wasserphase](#3-3-1-1-Schadst-Bakt-in-Wasserphase)
-      - [3.3.1.2 Schadstoffe in Schwebstoffen](#3-3-1-2-Schadstoffe-in-Schwebstoffen)
-      - [3.3.1.3 Schadstoffe im Sediment](#3-3-1-3-Schadstoffe-im-Sediment)
-      - [3.3.1.4 Schadstoffe in Biota](#3-3-1-4-Schadstoffe-in-Biota)
-    - [3.4.1 Physik-chemische QK](#3-4-1-Physik-chemische-QK)
-    - [3.5.1 Hydromorphologische QK](#3-5-1-Hydromorphologische-QK)
-    - [3.6.1 Meteorologie](#3-6-1-Meteorologie)
+  - [3.3.1 Chemische QK](#3-3-1-Chemische-QK)
+    - [3.3.1.1 Schadst/Bakt in Wasserphase](#3-3-1-1-Schadst-Bakt-in-Wasserphase)
+    - [3.3.1.2 Schadstoffe in Schwebstoffen](#3-3-1-2-Schadstoffe-in-Schwebstoffen)
+    - [3.3.1.3 Schadstoffe im Sediment](#3-3-1-3-Schadstoffe-im-Sediment)
+    - [3.3.1.4 Schadstoffe in Biota](#3-3-1-4-Schadstoffe-in-Biota)
+  - [3.4.1 Physik-chemische QK](#3-4-1-Physik-chemische-QK)
+  - [3.5.1 Hydromorphologische QK](#3-5-1-Hydromorphologische-QK)
+  - [3.6.1 Meteorologie](#3-6-1-Meteorologie)
 - [4 Abfrage-Editor](#4-Abfrage-Editor)
   - [4.1 Plausibilitätsprüfungen](#4-1-Plausibilitaetspruefungen)
 - [5 Daten-Editor](#5-Daten-Editor)
@@ -115,7 +122,7 @@ In die Berechnung von schwebstoffgebundenen Frachten geht neben der Stoffkonzent
 Details zur Berechnungsmethodik können Sie dem folgenden Dokument entnehmen:
 
 
-[Methodik zur Berechnung der Jahresfrachten](abbildungen/Methodik_Frachtberechnung.pdf)
+[Methodik zur Berechnung der Jahresfrachten](/elbe-datenportal-doku/doc/abbildungen/Methodik_Frachtberechnung.pdf)
 
 ##### <a id="3-1-1-3-Tabellen-der-Zahlentafeln"></a>3.1.1.3 Tabellen der Zahlentafeln
 
@@ -232,7 +239,7 @@ Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarb
 
 #### <a id="3-3-1-Chemische-QK"></a>3.3.1 Chemische QK
 
-##### <a id="3-3-1-1-Schadst-Bakt-in-Wasserphase"></a>3.3.1.1 Schadst./Bakt. in Wasserphase
+##### <a id="3-3-1-1-Schadst-Bakt-in-Wasserphase"></a>3.3.1.1 Schadst/Bakt in Wasserphase
 
 Die Stoffkonzentrationen dieser Gruppe beziehen sich auf den im Wasser gelösten Anteil.
 
@@ -252,7 +259,7 @@ Sediment setzt sich aus mineralischen oder organischen Feststoffpartikeln zusamm
 
 Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in Biota gemessen wurden.
 
-#### <a id="3-4-1-Physik-chemische-QK"></a>3.4.1 Physik.-chemische QK
+### <a id="3-4-1-Physik-chemische-QK"></a>3.4.1 Physik-chemische QK
 
 Im FIS werden bezüglich der hydromorphologischen Qualitätskomponenten im tidefreien Bereich Messwerte zum Abfluss (Grundlage der Frachtenberechnung) geführt. Im tidebeeinflussten Bereich sind die Wasserstände als Scheitelwerte des Tidehoch- und Tideniedrigwassers verfügbar. Die Wasserstandsangaben beziehen sich jeweils auf den Pegelnullpunkt (PNP).
 
@@ -260,7 +267,7 @@ Der Gesamtumfang der im FIS geführten Abfluss- und Tidedaten kann zunächst dur
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-#### <a id="3-5-1-Hydromorphologische-QK"></a>3.5.1 Hydromorphologische QK
+### <a id="3-5-1-Hydromorphologische-QK"></a>3.5.1 Hydromorphologische QK
 
 Im FIS sind bezüglich der hydromorphologischen Qualitätskomponenten Messwerte zum Abfluss (Grundlage der Frachtenberechnung) sowie im tidebeeinflussten Bereich die Wasserstände als Scheitelwerte des Tidehoch- und Tideniedrigwassers verfügbar. Die Wasserstandsangaben beziehen sich jeweils auf den Pegelnullpunkt (PNP).
 
@@ -287,7 +294,7 @@ Die Wasserstandsdaten im tidebeeinflussten Bereich stammen
 
 Die Zeitangaben zu den Tidescheitelwerten wurden für die Darstellung im FIS auf die mitteleuropäische Sommerzeit (MESZ) umgerechnet.
 
-#### <a id="3-6-1-Meteorologie"></a>3.6.1 Meteorologie
+### <a id="3-6-1-Meteorologie"></a>3.6.1 Meteorologie
 
 Meteorologische Messdaten können der Interpretation der Daten zu den im FIS geführten Messwerten der verschiedenen Qualitätskomponenten dienen. Diese Wetterdaten werden überwiegend in den automatischen Messstationen im Elbeinzugsgebiet aufgezeichnet, beschränken sich jedoch zur Zeit auf einige wenige Parameter. Umfassendere meteorologische Datenreihen sind über die Internetseite des Deutschen Wetterdienstes unter www.dwd.de abrufbar.
 
@@ -339,7 +346,7 @@ Zur Bearbeitung einzelner Datensätze wird das zu verändernde Parameterfeld ang
 
 Soll ein Wert für ein bestimmtes Feld auf alle Datensätze der Auswahl übertragen werden, so ist dieser Wert im leeren Datensatzfeld im Formularkopf anzugeben. Ein Klick auf die nebenstehende Schaltfläche (Bleistift-Symbol auf rotem Grund) überträgt dann den Wert bzw. die Werte auf alle Datensätze der Auswahl.
 
-## <a id="6-Persoenliche-Daten-Kennwort"></a> 6 Persönliche Daten / Kennwort
+## <a id="6-Persoenliche-Daten-Kennwort"></a>6 Persönliche Daten / Kennwort
 
 Über diese Seite können die persönlichen Daten eingesehen werden. Änderungen der persönlichen Daten sind der FGG Elbe bzw. dem Datenbank-Administrator mitzuteilen.
 

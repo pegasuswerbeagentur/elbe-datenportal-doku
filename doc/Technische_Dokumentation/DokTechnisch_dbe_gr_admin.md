@@ -1,4 +1,11 @@
-# Technische Dokumentation
+---
+layout: default
+title: Admin
+parent: Technische Dokumentation
+nav_order: 2
+---
+
+# Admin
 
 ## Inhalt
 
@@ -30,7 +37,7 @@
 Den Kern des Fachinformationssystems der FGG Elbe bildet der zentrale Server. Dieser beinhaltet einen Datenbank-Server, in der alle durch die FGG verwalteten Daten abgelegt sind und verwaltet werden können. Die Ausführung von Auswertungs- und Aufbereitungsfunktionen erfolgt, vor einer Übertragung der Ergebnisse an den Anwender, durch Programmmodule auf dem Server.
 
 
-![Struktur des Datenportals der FGG Elbe](abbildungen/systemstruktur.jpg)
+![Struktur des Datenportals der FGG Elbe](/elbe-datenportal-doku/doc/abbildungen/systemstruktur.jpg)
 Struktur des Datenportals der FGG Elbe
 
 Die Steuerung der Programmfunktionen erfolgt durch die Anwender dezentral, von beliebigen Standorten aus, über das Internet. Als Steuerungsoberfläche dienen den Anwendern die durch den zentralen Servers übertragenen Web-Seiten. Auch die Ergebnisse (Grafiken und Tabellen) der Anfragen überträgt der Server über das Internet zum PC des Anwenders.
@@ -93,7 +100,7 @@ Das Betriebssystem startet regelmäßig einen Sicherungsprozess. Dieser Vorgang 
 Die zu startende Batch-Datei (backup.bat) liegt im Verzeichnis C:\db_fggelbe_autobackup. In diesem Verzeichnis liegen auch die erstellten Sicherungsdateien, die jeweils den vollständigen Datenbankzustand zum Zeitpunkt der Sicherung (im Dateinamen enthalten) beinhalten. Zur Erhöhung der Sicherheit sollten die Backup-Dateien regelmäßig auf einen zweiten, unabhängigen Speicherort kopiert werden.
 
 
-[Batch-Datei zur automatisierten Datensicherung (Vollsicherung)](abbildungen/backup.bat)
+[Batch-Datei zur automatisierten Datensicherung (Vollsicherung)](/elbe-datenportal-doku/doc/abbildungen/backup.bat)
 
 ### <a id="4-2-Fortschreitende-Sicherung-der-Messdaten"></a>4.2 Fortschreitende Sicherung der Messdaten
 
@@ -121,7 +128,7 @@ Diese Access-Datei führt Sicherungen des Inhalts der Dokumentation.
 HTML/Dok*.html
 Diese Dateien sind das Ausgabeergebnis der automatisierten Erstellung der HTML-Dokumentation. Diese Dateien können aus der Anwendung jederzeit neu generiert werden und sind dann in das Arbeitsverzeichnis des FIS zu kopieren.
 
-HTML/abbildungen/*.*
+HTML//elbe-datenportal-doku/doc/abbildungen/*.*
 In die HTML-Dkumentation eingebundene Abbildungen oder durch die Doku zum Download angebotene Dateien sind in diesem Verzeichnis abgelegt. Anpassungen des Inhalts sind ggf. auch im Arbeitsverzeichnis des FIS vorzunehmen.
 
 HTML/css_dok/style_dok.css

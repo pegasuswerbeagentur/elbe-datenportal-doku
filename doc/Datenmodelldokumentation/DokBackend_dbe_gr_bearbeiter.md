@@ -1,4 +1,11 @@
-# Datenmodelldokumentation
+---
+layout: default
+title: Bearbeiter
+parent: Datenmodelldokumentation
+nav_order: 2
+---
+
+# Bearbeiter
 
 ## Inhalt
 

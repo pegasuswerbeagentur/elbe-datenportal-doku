@@ -1,4 +1,11 @@
-# Datenmodelldokumentation
+---
+layout: default
+title: Auswerter
+parent: Datenmodelldokumentation
+nav_order: 2
+---
+
+# Auswerter
 
 ## Inhalt
 
