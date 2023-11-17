@@ -8,6 +8,3 @@ logo: "/assets/images/logo.png"
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
 
-
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
