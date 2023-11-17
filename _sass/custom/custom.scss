@@ -31,6 +31,21 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.back-to-top {
+  height: 2.5rem;
+  position: fixed;
+  width: 2.5rem;
+  padding: 2px;
+  right: 1rem;
+  background: #002751;
+  bottom: 2rem;
+}
+
+.back-to-top svg {
+  color: white;
+  transform: rotate(-90deg);
+}
+
 @media (min-width: 66.5rem) {
   .side-bar {
     width: calc((56% - 66.5rem) / 2 + 16.5rem);
