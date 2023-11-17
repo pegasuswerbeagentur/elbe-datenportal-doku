@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
   color: $fgg-blue;
 }
 
+h1, h4 {
+  font-weight: bold;
+}
+
 .site-title {
   font-size: 1rem !important;
   line-height: 1.25;
@@ -44,6 +48,11 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top svg {
   color: white;
   transform: rotate(-90deg);
+}
+
+.back-to-top a {
+  display: block;
+  height: 100%;
 }
 
 @media (min-width: 66.5rem) {
