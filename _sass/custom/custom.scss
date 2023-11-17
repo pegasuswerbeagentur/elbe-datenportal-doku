@@ -25,6 +25,7 @@ h1, h4 {
 
 .side-bar {
   background: $fgg-light-blue;
+  z-index: 111111111111111111;
 }
 
 .nav-list-item {
@@ -68,6 +69,6 @@ h1, h4 {
 
 @media (min-width: 50rem) {
   .main {
-    max-width: 96.5rem;
+    max-width: 100.5rem;
   }
 }
