@@ -8,3 +8,4 @@ logo: "/assets/images/wappen35hellblau.png"
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
 
+color_scheme: light
