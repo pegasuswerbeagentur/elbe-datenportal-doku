@@ -1,3 +1,36 @@
+a, a:not([class]) {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: $fgg-orange;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $fgg-blue;
+}
+
+.site-title {
+  font-size: 1rem !important;
+  line-height: 1.25;
+}
+
+.site-logo {
+  background-position: center center;
+}
+
+.side-bar {
+  background: $fgg-light-blue;
+}
+
+.nav-list-item {
+  display: none;
+}
+
+.nav-list-item.active {
+  display: block;
+}
+
 @media (min-width: 66.5rem) {
   .side-bar {
     width: calc((56% - 66.5rem) / 2 + 16.5rem);
@@ -13,29 +46,4 @@
   .main {
     max-width: 100.5rem;
   }
-}
-
-.site-title {
-  font-size: 1rem !important;
-  line-height: 1.25;
-}
-
-.site-logo {
-  background-position: center center;
-}
-
-a, a:not([class]) {
-  text-decoration: none;
-}
-
-a:hover, a:focus {
-  color: $fgg-orange;
-}
-
-.side-bar {
-  background: $fgg-light-blue;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $fgg-blue;
 }
