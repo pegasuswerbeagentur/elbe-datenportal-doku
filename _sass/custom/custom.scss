@@ -24,6 +24,10 @@
   background-position: center center;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover, a:focus {
   color: $fgg-orange;
 }
