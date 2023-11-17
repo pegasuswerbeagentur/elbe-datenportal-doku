@@ -11,7 +11,7 @@
 
 @media (min-width: 50rem) {
   .main {
-    max-width: 82rem;
+    max-width: 100.5rem;
   }
 }
 
@@ -33,9 +33,9 @@ a:hover, a:focus {
 }
 
 .side-bar {
-  background: #D2E8F3;
+  background: $fgg-light-blue;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #151E83;
+  color: $fgg-blue;
 }
