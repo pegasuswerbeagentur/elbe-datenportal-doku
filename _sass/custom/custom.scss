@@ -55,6 +55,14 @@ h1, h4 {
   transform: rotate(-90deg);
 }
 
+h2.text-delta+ul {
+  display: none;
+}
+
+
+h2.text-delta {
+  display: none;
+}
 
 @media (min-width: 66.5rem) {
   .side-bar {
