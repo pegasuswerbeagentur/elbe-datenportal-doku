@@ -123,7 +123,7 @@ In die Berechnung von schwebstoffgebundenen Frachten geht neben der Stoffkonzent
 Details zur Berechnungsmethodik können Sie dem folgenden Dokument entnehmen:
 
 
-[Methodik zur Berechnung der Jahresfrachten](/elbe-datenportal-doku/doc/abbildungen/Methodik_Frachtberechnung.pdf)
+[Methodik zur Berechnung der Jahresfrachten](/doc/abbildungen/Methodik_Frachtberechnung.pdf)
 
 ##### <a id="3-1-1-3-Tabellen-der-Zahlentafeln"></a>3.1.1.3 Tabellen der Zahlentafeln
 

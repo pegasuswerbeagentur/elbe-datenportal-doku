@@ -110,7 +110,7 @@ Der Gesamtumfang der im FIS geführten Makrophyten- und Phytobenthos-Daten kann 
 
 Makrophyten und Phytobenthos (ohne Diatomeen) werden in Abundanz- bzw. Häufigkeitsklassen nach Kohler (1978), die dem PHYLIB- und BMT-Verfahren zu Grunde liegen, dargestellt. Dabei gilt folgende Einteilung (aus: „Weiterentwicklung biologischer Untersuchungsverfahren zur kohärenten Umsetzung der EG-Wasserrahmenrichtlinie - Teilvorhaben Makrophyten & Phytobenthos“ - Endbericht 2012):
 
-![Einteilung der Häufigkeitsklassen](/elbe-datenportal-doku/doc/abbildungen/Tabelle_Häufigkeitsklassen.PNG)
+![Einteilung der Häufigkeitsklassen](/doc/abbildungen/Tabelle_Häufigkeitsklassen.PNG)
 Tabelle: Einteilung der Häufigkeitsklassen
 
 Die benthischen Diatomeen dagegen werden als relative Organismenzahlen dargestellt, obwohl sie formal dem Phytobenthos zugerechnet werden.

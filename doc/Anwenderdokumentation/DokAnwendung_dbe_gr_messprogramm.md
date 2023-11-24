@@ -212,7 +212,7 @@ Der Gesamtumfang der im FIS geführten Makrophyten- und Phytobenthos-Daten kann 
 Makrophyten und Phytobenthos (ohne Diatomeen) werden in Abundanz- bzw. Häufigkeitsklassen nach Kohler (1978), die dem PHYLIB- und BMT-Verfahren zu Grunde liegen, dargestellt. Dabei gilt folgende Einteilung (aus: „Weiterentwicklung biologischer Untersuchungsverfahren zur kohärenten Umsetzung der EG-Wasserrahmenrichtlinie - Teilvorhaben Makrophyten & Phytobenthos“ - Endbericht 2012):
 
 
-![Einteilung der Häufigkeitsklassen](/elbe-datenportal-doku/doc/abbildungen/Tabelle_Häufigkeitsklassen.PNG)
+![Einteilung der Häufigkeitsklassen](/doc/abbildungen/Tabelle_Häufigkeitsklassen.PNG)
 Tabelle: Einteilung der Häufigkeitsklassen
 
 Die benthischen Diatomeen dagegen werden als relative Organismenzahlen dargestellt, obwohl sie formal dem Phytobenthos zugerechnet werden.
@@ -389,7 +389,7 @@ In die Berechnung von schwebstoffgebundenen Frachten geht neben der Stoffkonzent
 Details zur Berechnungsmethodik können Sie dem folgenden Dokument entnehmen:
 
 
-[Methodik zur Berechnung der Jahresfrachten](/elbe-datenportal-doku/doc/abbildungen/Methodik_Frachtberechnung.pdf)
+[Methodik zur Berechnung der Jahresfrachten](/doc/abbildungen/Methodik_Frachtberechnung.pdf)
 
 ##### <a id="4-2-3-3-Tabellen-der-Zahlentafeln"></a>4.2.3.3 Tabellen der Zahlentafeln
 
@@ -498,43 +498,43 @@ Durch die ergänzende Kennzeichnung mit "*" können die auffälligen Werte unter
 Über den folgenden Link können Sie die Vorlage (ENMOHydro, Format 69) zur Übertragung von kontinuierlich ermittelten Messwerten aus den automatischen Messstationen herunterladen. Die Verschlüsselungen sind jeweils in den Katalogtabellen des FIS hinterlegt.
 
 
-[Beispieldaten_ENMO.txt](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_69_ENMOHydro_Stand_21-03-2018.txt)
+[Beispieldaten_ENMO.txt](/doc/abbildungen/Vorlage_Importformat_69_ENMOHydro_Stand_21-03-2018.txt)
 
 Zusätzliche Erläuterungen zur Formatvorlage sind im folgenden Dokument erläutert:
 
 
-[Erläuterungen zur Formatvorlage ENMOHydro (Importformat 69)](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_69_ENMOHydro_Erlaeuterungen.txt)
+[Erläuterungen zur Formatvorlage ENMOHydro (Importformat 69)](/doc/abbildungen/Vorlage_Importformat_69_ENMOHydro_Erlaeuterungen.txt)
 
 Weiterhin können die Daten zu den Tidescheitelwerten in der Tideelbe mit den nachfolgenden Formaten importiert werden.
 
 
-[Vorlage zum Import der Daten aus dem Tideportal – Importformat 75 (ANSI-Format)](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_75_Tideportal_Elbe.txt)
+[Vorlage zum Import der Daten aus dem Tideportal – Importformat 75 (ANSI-Format)](/doc/abbildungen/Vorlage_Importformat_75_Tideportal_Elbe.txt)
 
 
-[Vorlage zum Import der Daten der HPA – Importformat 76](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_76_Tidescheitel_HPA.txt) 
+[Vorlage zum Import der Daten der HPA – Importformat 76](/doc/abbildungen/Vorlage_Importformat_76_Tidescheitel_HPA.txt) 
 
 Über den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Messwerten zu chemischen und chemisch-physikalischen Qualitätskomponenten herunterladen, in der Sie auch detaillierte Beschreibungen zur erforderlichen Strukturierung und Formatierung finden. Die Vorlage kann auch für den Import von Durchflussdaten (hydromorphologische Qualitätskomponenten) verwendet werden. Wichtiger Hinweis: Die ersten beiden Zeilen sind für Überschriften reserviert und werden beim Import nicht ausgelesen!
 
 
-[Excel-Vorlage zum Import (Chemie) – Importformat 70](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_70_Messwertimport_Chemie.xls) 
+[Excel-Vorlage zum Import (Chemie) – Importformat 70](/doc/abbildungen/Vorlage_Importformat_70_Messwertimport_Chemie.xls) 
 
 Über den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Fangdaten aus Befischungen herunterladen.
 Wichtiger Hinweis: Die ersten sieben Zeilen sind für Überschriften, Erläuterungen und Beispiele reserviert und werden beim Import nicht ausgelesen! Der Auslesevorgang beginnt mit der achten Zeile.
 
 
-[Excel-Vorlage zum Import (Fangdaten Befischung) – Importformat 72](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_72_Fangdatenimport_Fische.xls) 
+[Excel-Vorlage zum Import (Fangdaten Befischung) – Importformat 72](/doc/abbildungen/Vorlage_Importformat_72_Fangdatenimport_Fische.xls) 
 
 Über den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Biologie-Daten herunterladen.
 Wichtiger Hinweis: Die ersten zwei Zeilen sind für Überschriften reserviert und werden beim Import nicht ausgelesen! Der Auslesevorgang beginnt mit der dritten Zeile.
 
 
-[Excel-Vorlage zum Import (Biologie) – Importformat 78](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_78_Messwertimport_Biologie.xls) 
+[Excel-Vorlage zum Import (Biologie) – Importformat 78](/doc/abbildungen/Vorlage_Importformat_78_Messwertimport_Biologie.xls) 
 
 Über den folgenden Link können Sie die Vorlage (MS Excel) zur Übertragung von Biota-Daten herunterladen.
 Wichtiger Hinweis: Die ersten zwei Zeilen sind für Überschriften reserviert und werden beim Import nicht ausgelesen! Der Auslesevorgang beginnt mit der dritten Zeile.
 
 
-[Excel-Vorlage zum Import (Biota) – Importformat 94](/elbe-datenportal-doku/doc/abbildungen/Vorlage_Importformat_94_Messwertimport_Biota.xls) 
+[Excel-Vorlage zum Import (Biota) – Importformat 94](/doc/abbildungen/Vorlage_Importformat_94_Messwertimport_Biota.xls) 
 
 Die Beschreibung weiterer Formate bzw. entsprechende Vorlagen können Sie bei Bedarf bei der FGG Elbe abfragen.
 
