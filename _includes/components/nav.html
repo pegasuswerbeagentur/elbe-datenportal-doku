@@ -9,7 +9,6 @@
     node, children_list, child, grand_children_list, grand_child.
 {%- endcomment -%}
 
-{{ page | json }}
 
 {%- assign nav_pages = include.pages
     | where_exp: "item", "item.title != nil"
