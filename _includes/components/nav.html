@@ -9,6 +9,8 @@
     node, children_list, child, grand_children_list, grand_child.
 {%- endcomment -%}
 
+{{ page | json }}
+
 {%- assign nav_pages = include.pages
     | where_exp: "item", "item.title != nil"
     | where_exp: "item", "item.nav_exclude != true" -%}
@@ -27,7 +29,6 @@
 {%- assign third_level_pages = sorted_pages
     | where_exp: "item", "item.grand_parent != nil" -%}
 
-    {{ page | json }}
     {%- for node in first_level_pages -%}
 <ul class="nav-list">
 {%- for node in first_level_pages -%}
