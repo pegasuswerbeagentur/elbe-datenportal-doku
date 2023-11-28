@@ -9,7 +9,6 @@
     node, children_list, child, grand_children_list, grand_child.
 {%- endcomment -%}
 
-{{ page | json }}
 
 {%- assign nav_pages = include.pages
     | where_exp: "item", "item.title != nil"
@@ -39,7 +38,7 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
     </button>
     {%- endif -%}
-    <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
+    <a href="#" class="nav-list-link">{{ node.title }}</a>
     {%- if node.has_children -%}
       {%- assign children_list = second_level_pages
             | where: "parent", node.title -%}
@@ -54,7 +53,7 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
           </button>
           {%- endif -%}
-          <a href="{{ child.url | relative_url }}" class="nav-list-link">{{ child.title }}</a>
+          <a href="#" class="nav-list-link">{{ child.title }}</a>
           {%- if child.has_children -%}
             {%- assign grand_children_list = third_level_pages
                   | where: "parent", child.title
@@ -64,9 +63,11 @@
             {%- endif -%}
             <ul class="nav-list">
             {%- for grand_child in grand_children_list -%}
-              <li class="nav-list-item">
-                <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
-              </li>
+             {%- if grand_child.title == page.title -%}
+               <li class="nav-list-item">
+                 <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
+               </li>
+               {%- endif -%}
             {%- endfor -%}
             </ul>
           {%- endif -%}
