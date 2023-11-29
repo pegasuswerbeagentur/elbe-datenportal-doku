@@ -26,7 +26,9 @@ h1, h4 {
 .side-bar {
   background: $fgg-light-blue;
   z-index: 111111111111111111;
+}
 
+#site-nav {
   display: none;
 }
 
@@ -65,7 +67,7 @@ h1, h4 {
   }
 
   .main {
-    margin-left: Max(16.5rem, calc((56% - 66.5rem) / 2 + 16.5rem));
+    margin-left: auto;
   }
 }
 
@@ -74,5 +76,9 @@ h1, h4 {
     //max-width: 100.5rem;
 
     max-width: 80%;
+  }
+
+  .side-bar {
+    display: none;
   }
 }
