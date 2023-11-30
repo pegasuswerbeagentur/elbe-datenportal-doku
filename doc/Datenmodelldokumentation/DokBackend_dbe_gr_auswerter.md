@@ -8,6 +8,8 @@ nav_order: 2
 
 # Auswerter
 
+1. TOC {:toc}
+
 ## Inhalt
 
 - [1 Fachdatentabellen](#1-Fachdatentabellen)
