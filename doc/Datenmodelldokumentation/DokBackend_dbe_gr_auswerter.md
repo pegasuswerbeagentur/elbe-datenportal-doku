@@ -8,7 +8,6 @@ nav_order: 2
 
 # Auswerter
 
-1. TOC {:toc}
 
 ## Inhalt
 
