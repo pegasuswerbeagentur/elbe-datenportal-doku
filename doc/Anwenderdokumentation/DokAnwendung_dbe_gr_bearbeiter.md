@@ -26,10 +26,10 @@ nav_order: 2
       - [3.2.1.1 Fischfauna](#QKFischfauna)
       - [3.2.1.2 Fischfauna (Fischartinfo)](#QKFischfaunaArtInfo)
       - [3.2.1.3 Phytoplankton](#QKPhytoplankton)
-      - [3.2.1.4 Makrophyten/Phytobenthos](#1-4-Makrophyten-Phytobenthos)
+      - [3.2.1.4 Makrophyten/Phytobenthos](#QKBenPhyto)
       - [3.2.1.5 Makrozoobenthos](#QKBenZoo)
   - [3.3.1 Chemische QK](#120225_17:13:58)
-    - [3.3.1.1 Schadst/Bakt in Wasserphase](#1-1-Schadst-Bakt-in-Wasserphase)
+    - [3.3.1.1 Schadst/Bakt in Wasserphase](#QKChemWas)
     - [3.3.1.2 Schadstoffe in Schwebstoffen](#QKChemSch)
     - [3.3.1.3 Schadstoffe im Sediment](#QKChemSed)
     - [3.3.1.4 Schadstoffe in Biota](#QKChemBio)
@@ -222,7 +222,7 @@ Der Gesamtumfang der im FIS geführten Phytoplankton-Daten kann zunächst durch 
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-##### <a id="Makrophyten-Phytobenthos"></a>3.2.1.4 Makrophyten/Phytobenthos
+##### <a id="QKBenPhyto"></a>3.2.1.4 Makrophyten/Phytobenthos
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die Makrophyten und Phytobenthos zugeordnet werden.
 
@@ -240,7 +240,7 @@ Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarb
 
 #### <a id="120225_17:13:58"></a>3.3.1 Chemische QK
 
-##### <a id="Schadst-Bakt-in-Wasserphase"></a>3.3.1.1 Schadst/Bakt in Wasserphase
+##### <a id="QKChemWas"></a>3.3.1.1 Schadst/Bakt in Wasserphase
 
 Die Stoffkonzentrationen dieser Gruppe beziehen sich auf den im Wasser gelösten Anteil.
 

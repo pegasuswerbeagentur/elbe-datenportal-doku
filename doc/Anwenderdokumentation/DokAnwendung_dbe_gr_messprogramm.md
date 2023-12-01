@@ -13,9 +13,9 @@ nav_order: 2
 - [1 Anmeldung](#anmeldung)
 - [2 Messprogramme](#Messprogramme)
   - [2.1 Probenahmetermine](#Probenahmetermine)
-    - [2.1.1 Tabellenausgabe](#1-Tabellenausgabe)
+    - [2.1.1 Tabellenausgabe](#Tabellenausgabe)
   - [2.2 Teilprogramme](#Teilprogramme)
-    - [2.2.1 Tabellenausgabe](#1-Tabellenausgabe)
+    - [2.2.1 Tabellenausgabe](#Tabellenausgabe)
 - [3 Messstellen](#MSAbfrage)
   - [3.1 Kartenansicht der Messstellen](#MSKarte)
   - [3.2 Auswahl einer Messstelle](#MSKarteAuswahl)
@@ -24,24 +24,24 @@ nav_order: 2
   - [4.1 Auswahl Qualitätskomponenten](#123)
     - [4.1.1 Biologische QK](#QKBio)
       - [4.1.1.1 Phytoplankton](#QKPhytoplankton)
-      - [4.1.1.2 Makrophyten/Phytobenthos](#1-2-Makrophyten-Phytobenthos)
+      - [4.1.1.2 Makrophyten/Phytobenthos](#QKBenPhyto)
       - [4.1.1.3 Makrozoobenthos](#QKBenZoo)
       - [4.1.1.4 Fischfauna (Datenabfrage)](#QKFischfauna-Datenabfrage)
       - [4.1.1.5 Fischfauna (Fischartinfo)](#QKFischfaunaArtInfo)
     - [4.1.2 Chemische QK](#120225_17:13:58)
-      - [4.1.2.1 Schadstoffe in der Wasserphase](#2-1-Schadstoffe-in-der-Wasserphase)
+      - [4.1.2.1 Schadstoffe in der Wasserphase](#Schadstoffe-in-der-Wasserphase)
       - [4.1.2.2 Schadstoffe in Schwebstoffen](#QKChemSch)
       - [4.1.2.3 Schadstoffe im Sediment](#QKChemSed)
       - [4.1.2.4 Schadstoffe in Biota](#QKChemBio)
-    - [4.1.3 Physikalisch-chemische QK](#3-Physikalisch-chemische-QK)
+    - [4.1.3 Physikalisch-chemische QK](#Physikalisch-chemische-QK)
     - [4.1.4 Hydromorphologische QK](#QKHydro)
-    - [4.1.5 Sonstige Messdaten](#5-Sonstige-Messdaten)
+    - [4.1.5 Sonstige Messdaten](#Sonstige-Messdaten)
       - [4.1.5.1 Meteorologie](#QKMeteo)
-      - [4.1.5.2 Bakterien](#5-2-Bakterien)
+      - [4.1.5.2 Bakterien](#Bakterien)
   - [4.2 Ergebnisabruf](#Ergebnisabruf)
     - [4.2.1 Ergebnisabruf Tabelle](#120522_15:38:28)
     - [4.2.2 Ergebnisabruf Grafik](#120522_16:52:13)
-    - [4.2.3 Sonderfunktionen](#3-Sonderfunktionen)
+    - [4.2.3 Sonderfunktionen](#Sonderfunktionen)
       - [4.2.3.1 Grenzwertüberschreitungen](#120622_13:26:15)
       - [4.2.3.2 Frachtberechnung](#120522_16:52:34)
       - [4.2.3.3 Tabellen der Zahlentafeln](#120821_16:39:58)
@@ -49,7 +49,7 @@ nav_order: 2
   - [5.1 Plausibilitätsprüfungen](#120225_17:34:05)
 - [6 Datenimport](#QKImport)
   - [6.1 Importvorlagen](#Importvorlagen)
-    - [6.1.1 Dateiformate](#1-Dateiformate)
+    - [6.1.1 Dateiformate](#Dateiformate)
   - [6.2 Importvorgang](#Importvorgang)
   - [6.3 Import-Log](#QKImportLog)
 - [7 Persönliche Daten / Kennwort](#120225_17:37:07)
@@ -203,7 +203,7 @@ Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarb
 
 In diesem Bereich sind sowohl die Messergebnisse zu den Biopigmenten (Chlorophyll-A, Phaeophytin) aus den verschiedenen Messvorgängen zugeordnet wie auch die Aggregation der Phytoplanktonbestimmungen auf der Ebene von Klassen in den unterschiedlichen Erfassungsarten (Zellzahl, Biovolumen) dargestellt.
 
-##### <a id="Makrophyten-Phytobenthos"></a>4.1.1.2 Makrophyten/Phytobenthos
+##### <a id="QKBenPhyto"></a>4.1.1.2 Makrophyten/Phytobenthos
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die Makrophyten und Phytobenthos zugeordnet werden. Sie werden als Taxalisten dargestellt und enthalten auch die benthischen Diatomeen.
 

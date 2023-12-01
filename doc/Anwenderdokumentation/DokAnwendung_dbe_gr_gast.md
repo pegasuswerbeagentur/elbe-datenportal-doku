@@ -102,7 +102,7 @@ Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarb
 
 In diesem Bereich sind sowohl die Messergebnisse zu den Biopigmenten (Chlorophyll-A, Phaeophytin) aus den verschiedenen Messvorgängen zugeordnet wie auch die Aggregation der Phytoplanktonbestimmungen auf der Ebene von Klassen in den unterschiedlichen Erfassungsarten (Zellzahl, Biovolumen) dargestellt.
 
-##### <a id="makrophyten-phytobenthos"></a>4.1.1.2 Makrophyten/Phytobenthos
+##### <a id="QKBenPhyto"></a>4.1.1.2 Makrophyten/Phytobenthos
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die Makrophyten und Phytobenthos zugeordnet werden. Sie werden als Taxalisten dargestellt und enthalten auch die benthischen Diatomeen.
 
