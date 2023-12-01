@@ -10,35 +10,35 @@ nav_order: 2
 
 ## Inhalt
 
-- [1 Anmeldung](#1-anmeldung)
+- [1 Anmeldung](#anmeldung)
 - [2 Messprogramme](#2-messprogramme)
-- [3 Messstellen](#3-messstellen)
-  * [3.1 Kartenansicht der Messstellen](#31-kartenansicht-der-messstellen)
-  * [3.2 Auswahl einer Messstelle](#32-auswahl-einer-messstelle)
+- [3 Messstellen](#MSAbfrage)
+  * [3.1 Kartenansicht der Messstellen](#MSKarte)
+  * [3.2 Auswahl einer Messstelle](#MSKarteAuswahl)
   * [3.3 Besonderheiten](#33-besonderheiten)
-- [4 Datenabruf](#4-datenabruf)
-  * [4.1 Auswahl Qualitätskomponenten](#41-auswahl-qualitätskomponenten)
-    * [4.1.1 Biologische QK](#411-biologische-qk)
-      * [4.1.1.1 Phytoplankton](#4111-phytoplankton)
-      * [4.1.1.2 Makrophyten/Phytobenthos](#4112-makrophytenphytobenthos)
-      * [4.1.1.3 Makrozoobenthos](#4113-makrozoobenthos)
-      * [4.1.1.4 Fischfauna (Datenabfrage)](#4114-fischfauna-datenabfrage)
-      * [4.1.1.5 Fischfauna (Fischartinfo)](#4115-fischfauna-fischartinfo)
-    * [4.1.2 Chemische QK](#412-chemische-qk)
+- [4 Datenabruf](#QKAuswahl)
+  * [4.1 Auswahl Qualitätskomponenten](#123)
+    * [4.1.1 Biologische QK](#QKBio)
+      * [4.1.1.1 Phytoplankton](#QKPhytoplankton)
+      * [4.1.1.2 Makrophyten/Phytobenthos](#QKBenPhyto)
+      * [4.1.1.3 Makrozoobenthos](#QKBenZoo)
+      * [4.1.1.4 Fischfauna (Datenabfrage)](#QKFischfauna-datenabfrage)
+      * [4.1.1.5 Fischfauna (Fischartinfo)](#QKFischfaunaArtInfo)
+    * [4.1.2 Chemische QK](#120225_17:13:58)
       * [4.1.2.1 Schadstoffe in der Wasserphase](#4121-schadstoffe-in-der-wasserphase)
-      * [4.1.2.2 Schadstoffe in Schwebstoffen](#4122-schadstoffe-in-schwebstoffen)
-      * [4.1.2.3 Schadstoffe im Sediment](#4123-schadstoffe-im-sediment)
-      * [4.1.2.4 Schadstoffe in Biota](#4124-schadstoffe-in-biota)
+      * [4.1.2.2 Schadstoffe in Schwebstoffen](#QKChemSch)
+      * [4.1.2.3 Schadstoffe im Sediment](#QKChemSed)
+      * [4.1.2.4 Schadstoffe in Biota](#QKChemBio)
     * [4.1.3 Physikalisch-chemische QK](#413-physikalisch-chemische-qk)
-    * [4.1.4 Hydromorphologische QK](#414-hydromorphologische-qk)
+    * [4.1.4 Hydromorphologische QK](#QKHydro)
     * [4.1.5 Sonstige Messdaten](#415-sonstige-messdaten)
-      * [4.1.5.1 Meteorologie](#4151-meteorologie)
+      * [4.1.5.1 Meteorologie](#QKMeteo)
       * [4.1.5.2 Bakterien](#4152-bakterien)
   * [4.2 Ergebnisabruf](#42-ergebnisabruf)
-    * [4.2.1 Ergebnisabruf Tabelle](#421-ergebnisabruf-tabelle)
-    * [4.2.2 Ergebnisabruf Grafik](#422-ergebnisabruf-grafik)
+    * [4.2.1 Ergebnisabruf Tabelle](#120522_15:38:28)
+    * [4.2.2 Ergebnisabruf Grafik](#120522_16:52:13)
 
-## <a id="1-anmeldung"></a>1 Anmeldung
+## <a id="anmeldung"></a>1 Anmeldung
 
 Der Zugang zum internen Teil des Datenbanksystems, Bearbeitungen des Datenbestands sowie Änderungen an Systemeinstellungen sind auf einen festgelegten Benutzerkreis beschränkt. Die entsprechenden Funktionalitäten stehen erst nach einer Anmeldung durch Eingabe des Benutzers sowie des Kennworts zur Verfügung. Die entsprechenden Zugangsdaten werden durch den Administrator auf Anfrage an Personen innerhalb der Behördenstruktur der FGG Elbe vergeben.
 
@@ -46,7 +46,7 @@ Der Zugang zum internen Teil des Datenbanksystems, Bearbeitungen des Datenbestan
 
 Über dieses Menüfeld sind die jährlichen Messprogramme (seit 2012 kurz als KEMP bezeichnet) der FGG Elbe erreichbar. Daraus lässt sich auch der für die entsprechenden Messjahre zu erwartende Datenumfang einordnen.
 
-## <a id="3-messstellen"></a>3 Messstellen
+## <a id="MSAbfrage"></a>3 Messstellen
 
 Die Seite "Messstellen" des FIS ermöglicht die Suche nach Messstellen bzw. Entnahmestellen nach verschiedenen Kriterien. Nach Auswahl eines ersten Kriteriums stehen für die weiteren Kriterien nur noch die Werte zur Verfügung, die bei der Kombination aller zuvor bereits gewählten Bedingungen verbleiben.
 
@@ -54,7 +54,7 @@ Sobald die festgelegten Kriterien eindeutig eine bestimmte Messstelle definieren
 
 Über den Button "Kartenansicht" kann die Messstellenauswahl in einer Karte dargestellt werden. Dies ist sowohl für eine einzelne ausgewählte Messstelle als auch für eine Gruppe von mehreren Messstellen möglich.
 
-### <a id="3-1-kartenansicht-der-messstellen"></a>3.1 Kartenansicht der Messstellen
+### <a id="MSKarte"></a>3.1 Kartenansicht der Messstellen
 
 In der Kartenansicht ist durch verschiedene Symbole dargestellt, zu welchen Messstellenstandorten bzw. welchen Entnahmepositionen Messdaten der jeweiligen Qualitätskomponenten im FIS vorhanden sind.
 
@@ -64,7 +64,7 @@ Durch Anklicken eines Messstellenstandorts bzw. eines Messstellenclusters öffne
 
 Als zusätzliche Informationen sind die Routen der Befischungen (soweit entsprechende Daten verfügbar sind) und die Entnahmepunkte der Längsprofilaufnahmen darstellbar.
 
-### <a id="3-2-auswahl-einer-messstelle"></a>3.2 Auswahl einer Messstelle
+### <a id="MSKarteAuswahl"></a>3.2 Auswahl einer Messstelle
 
 Durch Auswählen einer bestimmten Messstelle in der Karte öffnet sich neben der Karte unterhalb der Legende eine weitere Info-Box zur gewählten Messstelle. Über die Links in dieser Info-Box gelangen Sie direkt zu Detail-Informationen dieser Messstelle oder in das Abfrageformular zum Abruf von Messdaten.
 
@@ -74,7 +74,7 @@ In der Elbe gibt es aus historischen Gründen an einigen Flussabschnitten (z.B. 
 
 Die Messstellen der Längsprofile haben in der Regel eigenständige Bezeichnungen und Verortungen, um die teilweise sehr weit zurückreichenden Zeitreihen beizubehalten. Die Längsprofile per Schiff wurden in der Tideelbe bereits ab 1953 durchgeführt und bestehen in Teilen noch als Längsprofil zum Sauerstofftal und zur Brackwasserzone fort. Die Beprobung der gesamten Tideelbe im Längsprofil wurde ab 1979 dann per Hubschrauber durchgeführt, um alle Messstellen etwa in der gleichen Tidephase (bei Ebbstrom) beproben zu können. Bis 2011 fanden Längsprofilbefliegungen auch regelmäßig in der tidefreien Elbe bis zur Elbequelle in Tschechien statt.
 
-## <a id="4-datenabruf"></a>4 Datenabruf
+## <a id="QKAuswahl"></a>4 Datenabruf
 
 Der erste Schritt bei der Abfrage von Messwerten aus dem FIS erfolgt über die Auswahl einer Gruppe von Messgrößen (Qualitätskomponenten der WRRL und sonstige Gruppen).
 
@@ -88,11 +88,11 @@ Aus dem Bereich der hydromorphologischen Qualitätskomponenten werden im FIS Dat
 
 Über die Parameter der Qualitätskomponenten hinaus werden im FIS unter Sonstiges weitere Daten zu Bakterien und meteorologische Daten verschiedener Stationen aus dem Bereich der Flussgebietseinheit Elbe geführt. Letztere sind jedoch in der Regel unvollständig und sollten nur als Richtwert angesehen werden. Für amtliche meteorologische Daten wird auf den Deutschen Wetterdienst (DWD) verwiesen.
 
-### <a id="4-1-auswahl-qualitätskomponenten"></a>4.1 Auswahl Qualitätskomponenten
+### <a id="123"></a>4.1 Auswahl Qualitätskomponenten
 
-#### <a id="4-1-1-biologische-qk"></a>4.1.1 Biologische QK
+#### <a id="4-QKBio"></a>4.1.1 Biologische QK
 
-##### <a id="4-1-1-1-phytoplankton"></a>4.1.1.1 Phytoplankton
+##### <a id="4-1-QKPhytoplankton"></a>4.1.1.1 Phytoplankton
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die dem Phytoplankton zugeordnet werden.
 
@@ -117,7 +117,7 @@ Die benthischen Diatomeen dagegen werden als relative Organismenzahlen dargestel
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-##### <a id="4-1-1-3-makrozoobenthos"></a>4.1.1.3 Makrozoobenthos
+##### <a id="4-1-QKBenZoo"></a>4.1.1.3 Makrozoobenthos
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die dem Makrozoobenthos zugeordnet werden. Sie können ebenfalls als Taxalisten abgerufen werden. Der Bezug ist hier die relative Organismendichte, da die gesammelten Individuen je nach Bewertungsverfahren über verschiedene Teilflächen gepoolt oder aus Einzelproben hochgerechnet werden.
 
@@ -125,7 +125,7 @@ Der Gesamtumfang der im FIS geführten Makrozoobenthos-Daten kann zunächst durc
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-##### <a id="4-1-1-4-fischfauna-datenabfrage"></a>4.1.1.4 Fischfauna (Datenabfrage)
+##### <a id="4-1-QKFischfauna-datenabfrage"></a>4.1.1.4 Fischfauna (Datenabfrage)
 
 Der Gesamtumfang der im FIS geführten Befischungsvorgänge kann zunächst durch Festlegen verschiedener Kriterien in beliebiger Kombination eingegrenzt werden. Bei der Auswahl eines weiteren Kriteriums stehen jeweils nur noch die Werte zur Verfügung, die bei der Kombination aller zuvor bereits gewählten Bedingungen verbleiben.
 
@@ -135,7 +135,7 @@ Die Ausgabe des Befischungsprotokolls (Tabellentyp „Fangprotokoll“) stellt d
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten auch über verschiedene Fangbereiche und Befischungsvorgänge hinaus möglich. Die Standardtabelle umfasst alle im FIS verfügbaren Informationen zu einer bestimmten Fischart über einen bestimmten Zeitraum.
 
-##### <a id="4-1-1-5-fischfauna-fischartinfo"></a>4.1.1.5 Fischfauna (Fischartinfo)
+##### <a id="4-1-QKFischfaunaArtInfo"></a>4.1.1.5 Fischfauna (Fischartinfo)
 
 Die Seite ermöglicht den Zugriff auf die im FIS geführten Daten zu den einzelnen Fischarten.
 
@@ -143,7 +143,7 @@ Ist eine gesuchte Artenbezeichnung in der Auswahlliste "Fischarten im FIS" nicht
 
 Über eine Schaltfläche kann die gewählte Fischart in das Formular der Seite "Biologische Qualitätskomponenten Fischfauna" übernommen werden. Die anderen Auswahlkriterien werden in diesem Fall zurückgesetzt. Wurde die gewählte Fischart bislang bei keiner Befischung erfasst, wird sie nicht in das Formular übernommen.
 
-#### <a id="4-1-2-chemische-qk"></a>4.1.2 Chemische QK
+#### <a id="4-120225_17:13:58"></a>4.1.2 Chemische QK
 
 ##### <a id="4-1-2-1-schadstoffe-in-der-wasserphase"></a>4.1.2.1 Schadstoffe in der Wasserphase
 
@@ -162,7 +162,7 @@ Fahrt des Messschiffes zum grünen Tonnenstrich
 
 Es werden 2 QMP gemischt, Flasche 1 für die allgemeine Güte und Flasche 2 für die Schwermetalle (SM). Flasche 2 (SM) wird allerdings anders behandelt, hier werden die Schwermetalle im Filtrat (gelöst) und im Filterrückstand (pertikulär gebunden) gemessen (siehe auch nächstes Kapitel).
 
-##### <a id="4-1-2-2-schadstoffe-in-schwebstoffen"></a>4.1.2.2 Schadstoffe in Schwebstoffen
+##### <a id="4-1-QKChemSch"></a>4.1.2.2 Schadstoffe in Schwebstoffen
 
 Bei Schwebstoffen handelt es sich um kleine mineralische oder organische Feststoffpartikel. Diese werden durch ihre geringe Größe bzw. ihr geringes Gewicht mit der Strömung des Wassers in diesem "schwebend" transportiert. Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in diesen Schwebstoffpartikeln gemessen wurden.
 
@@ -178,11 +178,11 @@ Die Gewinnung von Schwebstoffproben erfolgt an einigen Standorten im Elbeeinzugs
 
 Zur allgemeinen Anleitung für die Probenahme von Schwebstoffen wird auf DIN 38402-24 (A24) verwiesen.
 
-##### <a id="4-1-2-3-schadstoffe-im-sediment"></a>4.1.2.3 Schadstoffe im Sediment
+##### <a id="4-1-QKChemSed"></a>4.1.2.3 Schadstoffe im Sediment
 
 Sediment setzt sich aus mineralischen oder organischen Feststoffpartikeln zusammen, die sich an der Gewässersohle absetzen. Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in diesen bereits länger abgelagerten Schwebstoffpartikeln gemessen wurden.
 
-##### <a id="4-1-2-4-schadstoffe-in-biota"></a>4.1.2.4 Schadstoffe in Biota
+##### <a id="4-1-QKChemBio"></a>4.1.2.4 Schadstoffe in Biota
 
 Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in Biota gemessen wurden. Dabei werden die Daten aus den entsprechenden Fangbereichen seit der Aufstellung der jährlichen Messprogramme als „koordinierte Elbemessprogramme“ (KEMP; seit 2012) den jeweiligen Bezugsmessstellen des KEMP zugeordnet. In den ausgegebenen Datentabellen finden sich – sofern vorhanden – weitere Angaben zur exakten Probenahmestelle.
 
@@ -193,7 +193,7 @@ Der Gesamtumfang der im FIS geführten physikalisch-chemischen Daten kann zunäc
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich
 
-#### <a id="4-1-4-hydromorphologische-qk"></a>4.1.4 Hydromorphologische QK
+#### <a id="4-QKHydro"></a>4.1.4 Hydromorphologische QK
 
 Im FIS sind bezüglich der hydromorphologischen Qualitätskomponenten Messwerte zum Durchfluss (Grundlage der Frachtenberechnung) sowie im tidebeeinflussten Bereich die Wasserstände als Scheitelwerte des Tidehoch- und Tideniedrigwassers verfügbar. Die Wasserstandsangaben beziehen sich jeweils auf den Pegelnullpunkt (PNP).
 
@@ -222,7 +222,7 @@ Die Zeitangaben zu den Tidescheitelwerten werden in den Originaldaten in der Reg
 
 #### <a id="4-1-5-sonstige-messdaten"></a>4.1.5 Sonstige Messdaten
 
-##### <a id="4-1-5-1-meteorologie"></a>4.1.5.1 Meteorologie
+##### <a id="4-1-QKMeteo"></a>4.1.5.1 Meteorologie
 
 Meteorologische Messdaten können der Interpretation der Daten zu den im FIS geführten Messwerten der verschiedenen Qualitätskomponenten dienen. Diese Wetterdaten werden überwiegend in den automatischen Messstationen im Elbeinzugsgebiet aufgezeichnet, beschränken sich jedoch zur Zeit auf einige wenige Parameter. Umfassendere meteorologische Datenreihen sind über die Internetseite des Deutschen Wetterdienstes unter www.dwd.de abrufbar.
 
@@ -242,13 +242,13 @@ Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarb
 
 Die Zeitangaben zu den Einzelproben beziehen sich auf die mitteleuropäische Sommerzeit (MESZ). Bei den Tagesmaxima und -minima der kontinuierlichen Messungen werden die Zeiten nach MEZ dargestellt.
 
-#### <a id="4-2-1-ergebnisabruf-tabelle"></a>4.2.1 Ergebnisabruf Tabelle
+#### <a id="4-120522_15:38:28"></a>4.2.1 Ergebnisabruf Tabelle
 
 Tabellen können in den Datei-Formaten XLS (MS Excel-Datei), CSV (textbasierte Datei mit durch Trennzeichen separierten Werten) und als PDF-Dokument ausgegeben werden. Bei einigen Tabellentypen stehen nicht alle Ausgabeformate zur Verfügung.
 
 Die durch das FIS erstellten Tabellen werden auf dem Server abgelegt. Über die nach Fertigstellung der Grafik angezeigte Ergebnisliste ist der direkte Aufruf der Grafiken durch Anklicken des Links (Darstellung im Browser) oder ein Download über das Kontextmenü ("Ziel speichern unter…" zur lokalen Ablage der Datei) möglich.
 
-#### <a id="4-2-2-ergebnisabruf-grafik"></a>4.2.2 Ergebnisabruf Grafik
+#### <a id="4-120522_16:52:13"></a>4.2.2 Ergebnisabruf Grafik
 
 Grafiken können in den Datei-Formaten SVG (skalierbare Vektor-Grafik), PNG (nicht skalierbare Bitmap-Grafik) und als PDF-Dokument ausgegeben werden. Bei Gruppengrafiken wird die höchste Qualität i.d.R. mit dem PDF-Format erreicht.
 
