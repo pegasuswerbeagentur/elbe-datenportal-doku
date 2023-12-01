@@ -82,13 +82,13 @@ Aus dem Bereich der hydromorphologischen Qualitätskomponenten werden im FIS Dat
 
 Die Zeitangaben zu den Einzelproben beziehen sich auf die mitteleuropäische Sommerzeit (MESZ). Bei den Tagesmaxima und -minima der kontinuierlichen Messungen werden die Zeiten nach MEZ dargestellt.
 
-#### <a id="3-120522_15:38:28"></a>3.1.1 Ergebnisabruf Tabelle
+#### <a id="120522_15:38:28"></a>3.1.1 Ergebnisabruf Tabelle
 
 Tabellen können in den Datei-Formaten XLS (MS Excel-Datei), CSV (textbasierte Datei mit durch Trennzeichen separierten Werten) und als PDF-Dokument ausgegeben werden. Bei einigen Tabellentypen stehen nicht alle Ausgabeformate zur Verfügung.
 
 Die durch das FIS erstellten Tabellen werden auf dem Server abgelegt. Über die nach Fertigstellung der Grafik angezeigte Ergebnisliste ist der direkte Aufruf der Grafiken durch Anklicken des Links (Darstellung im Browser) oder ein Download über das Kontextmenü ("Ziel speichern unter…" zur lokalen Ablage der Datei) möglich.
 
-#### <a id="3-120522_16:52:13"></a>3.1.2 Ergebnisabruf Grafik
+#### <a id="120522_16:52:13"></a>3.1.2 Ergebnisabruf Grafik
 
 Grafiken können in den Datei-Formaten SVG (skalierbare Vektor-Grafik), PNG (nicht skalierbare Bitmap-Grafik) und als PDF-Dokument ausgegeben werden. Bei Gruppengrafiken wird die höchste Qualität i.d.R. mit dem PDF-Format erreicht.
 
@@ -98,9 +98,9 @@ Je nach Qualitätskomponente stehen unterschiedliche Grafikausgaben zum Abruf zu
 
 ### <a id="123"></a>3.2 Auswahl Qualitätskomponenten
 
-#### <a id="3-QKBio"></a>3.2.1 Biologische QK
+#### <a id="QKBio"></a>3.2.1 Biologische QK
 
-##### <a id="3-2-QKFischfauna"></a>3.2.1.1 Fischfauna
+##### <a id="QKFischfauna"></a>3.2.1.1 Fischfauna
 
 Der Gesamtumfang der im FIS geführten Befischungsvorgänge kann zunächst durch Festlegen verschiedener Kriterien in beliebiger Kombination eingegrenzt werden. Bei der Auswahl eines weiteren Kriteriums stehen jeweils nur noch die Werte zur Verfügung, die bei der Kombination aller zuvor bereits gewählten Bedingungen verbleiben.
 
@@ -110,7 +110,7 @@ Die Ausgabe des Befischungsprotokolls (pdf) stellt die wesentlichen Informatione
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich. Die Standardtabelle umfasst alle im FIS verfügbaren Informationen zum jeweiligen Befischungsvorgang.
 
-##### <a id="3-2-QKFischfaunaArtInfo"></a>3.2.1.2 Fischfauna (Fischartinfo)
+##### <a id="QKFischfaunaArtInfo"></a>3.2.1.2 Fischfauna (Fischartinfo)
 
 Die Seite ermöglicht den Zugriff auf die im FIS geführten Daten zu den einzelnen Fischarten.
 
@@ -118,7 +118,7 @@ Ist eine gesuchte Artenbezeichnung in der Auswahlliste "Fischarten im FIS" nicht
 
 Über eine Schaltfläche kann die gewählte Fischart in das Formular der Seite "Biologische Qualitätskomponenten Fischfauna" übernommen werden. Die anderen Auswahlkriterien werden in diesem Fall zurückgesetzt. Wurde die gewählte Fischart bislang bei keiner Befischung erfasst, wird sie nicht in das Formular übernommen.
 
-##### <a id="3-2-QKPhytoplankton"></a>3.2.1.3 Phytoplankton
+##### <a id="QKPhytoplankton"></a>3.2.1.3 Phytoplankton
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die dem Phytoplankton zugeordnet werden.
 
@@ -126,7 +126,7 @@ Der Gesamtumfang der im FIS geführten Phytoplankton-Daten kann zunächst durch 
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-##### <a id="3-2-1-4-Makrophyten-Phytobenthos"></a>3.2.1.4 Makrophyten/Phytobenthos
+##### <a id="Makrophyten-Phytobenthos"></a>3.2.1.4 Makrophyten/Phytobenthos
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die Makrophyten und Phytobenthos zugeordnet werden.
 
@@ -134,7 +134,7 @@ Der Gesamtumfang der im FIS geführten Makrophyten- und Phytobenthos-Daten kann 
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-##### <a id="3-2-QKBenZoo"></a>3.2.1.5 Makrozoobenthos
+##### <a id="QKBenZoo"></a>3.2.1.5 Makrozoobenthos
 
 Die Messwerte dieser Gruppe stammen aus der Erfassung von Organismen, die dem Makrozoobenthos zugeordnet werden.
 
@@ -142,13 +142,13 @@ Der Gesamtumfang der im FIS geführten Makrozoobenthos-Daten kann zunächst durc
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-#### <a id="3-120225_17:13:58"></a>3.3.1 Chemische QK
+#### <a id="120225_17:13:58"></a>3.3.1 Chemische QK
 
-##### <a id="3-3-1-1-Schadst-Bakt-in-Wasserphase"></a>3.3.1.1 Schadst./Bakt. in Wasserphase
+##### <a id="Schadst-Bakt-in-Wasserphase"></a>3.3.1.1 Schadst./Bakt. in Wasserphase
 
 Die Stoffkonzentrationen dieser Gruppe beziehen sich auf den im Wasser gelösten Anteil.
 
-##### <a id="3-3-QKChemSch"></a>3.3.1.2 Schadstoffe in Schwebstoffen
+##### <a id="QKChemSch"></a>3.3.1.2 Schadstoffe in Schwebstoffen
 
 Bei Schwebstoffen handelt es sich um kleine mineralische oder organische Feststoffpartikel. Diese werden durch ihre geringe Größe bzw. ihr geringes Gewicht mit der Strömung des Wassers in diesem "schwebend" transportiert. Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in diesen Schwebstoffpartikeln gemessen wurden.
 
@@ -156,15 +156,15 @@ Schwebstoffproben werden überwiegend aus speziellen Absetzbecken (meist Monatsm
 
 Eine besondere Vorbehandlung erfahren die Proben zur Analyse der Schwermetallgehalte bei den Querprofil- und Längsprofilmischproben im Bereich der Tideelbe: Um zunächst die grobe Sandfraktion abzutrennen, wird eine Absetzzeit von etwa fünf Minuten angesetzt. Die wässrige Phase wird nun filtriert, um den Filterrückstand zur Analyse der abgesetzten Schwebstoffe zu gewinnen. Die Ergebnisse der Schwermetallanalysen sind nach dieser Vorbehandlungsmethode besser mit denjenigen aus den Absetzbeckenuntersuchungen vergleichbar.
 
-##### <a id="3-3-QKChemSed"></a>3.3.1.3 Schadstoffe im Sediment
+##### <a id="QKChemSed"></a>3.3.1.3 Schadstoffe im Sediment
 
 Sediment setzt sich aus mineralischen oder organischen Feststoffpartikeln zusammen, die sich an der Gewässersohle absetzen. Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in diesen Schwebstoffpartikeln gemessen wurden.
 
-##### <a id="3-3-QKChemBio"></a>3.3.1.4 Schadstoffe in Biota
+##### <a id="QKChemBio"></a>3.3.1.4 Schadstoffe in Biota
 
 Die Messwerte dieser Gruppe beziehen sich auf Stoffkonzentrationen, die in Biota gemessen wurden.
 
-#### <a id="3-QKPhyschem"></a>3.4.1 Physik.-chemische QK
+#### <a id="QKPhyschem"></a>3.4.1 Physik.-chemische QK
 
 Im FIS werden bezüglich der hydromorphologischen Qualitätskomponenten im tidefreien Bereich Messwerte zum Abfluss (Grundlage der Frachtenberechnung) geführt. Im tidebeeinflussten Bereich sind die Wasserstände als Scheitelwerte des Tidehoch- und Tideniedrigwassers verfügbar. Die Wasserstandsangaben beziehen sich jeweils auf den Pegelnullpunkt (PNP).
 
@@ -172,7 +172,7 @@ Der Gesamtumfang der im FIS geführten Abfluss- und Tidedaten kann zunächst dur
 
 Durch die Ausgabe der Daten als Standardtabelle (csv, xls) ist eine Weiterverarbeitung der Daten möglich.
 
-#### <a id="3-QKHydro"></a>3.5.1 Hydromorphologische QK
+#### <a id="QKHydro"></a>3.5.1 Hydromorphologische QK
 
 Im FIS sind bezüglich der hydromorphologischen Qualitätskomponenten Messwerte zum Abfluss (Grundlage der Frachtenberechnung) sowie im tidebeeinflussten Bereich die Wasserstände als Scheitelwerte des Tidehoch- und Tideniedrigwassers verfügbar. Die Wasserstandsangaben beziehen sich jeweils auf den Pegelnullpunkt (PNP).
 
@@ -199,7 +199,7 @@ Die Wasserstandsdaten im tidebeeinflussten Bereich stammen
 
 Die Zeitangaben zu den Tidescheitelwerten wurden für die Darstellung im FIS auf die mitteleuropäische Sommerzeit (MESZ) umgerechnet.
 
-#### <a id="3-QKMeteo"></a>3.6.1 Meteorologie
+#### <a id="QKMeteo"></a>3.6.1 Meteorologie
 
 Meteorologische Messdaten können der Interpretation der Daten zu den im FIS geführten Messwerten der verschiedenen Qualitätskomponenten dienen. Diese Wetterdaten werden überwiegend in den automatischen Messstationen im Elbeinzugsgebiet aufgezeichnet, beschränken sich jedoch zur Zeit auf einige wenige Parameter. Umfassendere meteorologische Datenreihen sind über die Internetseite des Deutschen Wetterdienstes unter www.dwd.de abrufbar.
 
