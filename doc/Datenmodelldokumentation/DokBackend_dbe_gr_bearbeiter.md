@@ -11,10 +11,10 @@ nav_order: 2
 ## Inhalt
 
 - [1 Fachdatentabellen](#110315_14:27:44)
-  - [1-1-Tabelle-dt_bemerkungen](#1-1-Tabelle-dt_bemerkungen)
+  - [1-1-Tabelle-dt_bemerkungen](#Tabelle-dt_bemerkungen)
   - [1-2-Tabelle-dt_fischarten](#dt_fischart)
   - [1-3-Tabelle-dt_importdateien](#dt_importdateien)
-  - [dt_messstellen](#1-4-Tabelle-dt_messstellen)
+  - [dt_messstellen](#Tabelle-dt_messstellen)
   - [1-5-Tabelle-dt_messstellen_history](#120820_16:46:00)
   - [1-6-Tabelle-dt_messstellensynonyme](#120820_16:58:00)
   - [1-7-Tabelle-dt_messvorgaenge](#dt_messvorgaenge)
