@@ -8,6 +8,9 @@ nav_order: 2
 
 # Admin
 
+* TOC
+{:toc}
+
 ## Inhalt
 
 - [1. Anmeldung](#anmeldung)
