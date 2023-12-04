@@ -1,5 +1,7 @@
 title: FGG Elbe Datenportal Dokumentation
 remote_theme: pmarsceill/just-the-docs
+kramdown:
+  auto_ids: false 
 
 url: https://docs.elbe-datenportal.de/
 
