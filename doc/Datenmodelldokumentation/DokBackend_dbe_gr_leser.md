@@ -8,4 +8,5 @@ nav_order: 2
 
 # Leser
 
-## Inhalt
+* TOC
+{:toc}

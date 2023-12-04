@@ -63,11 +63,10 @@
             {%- endif -%}
             <ul class="nav-list">
             {%- for grand_child in grand_children_list -%}
-             {%- if grand_child.title == page.title -%}
+            {{grand_child | json}}
                <li class="nav-list-item">
                  <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
                </li>
-               {%- endif -%}
             {%- endfor -%}
             </ul>
           {%- endif -%}

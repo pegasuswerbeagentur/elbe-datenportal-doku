@@ -8,32 +8,8 @@ nav_order: 2
 
 # Leser
 
-## Inhalt
-
-- [1 Anmeldung](#anmeldung)
-- [2 Messstellen](#MSAbfrage)
-  - [2.1 Kartenansicht der Messstellen](#MSKarte)
-  - [2.2 Auswahl einer Messstelle](#MSKarteAuswahl)
-- [3 Datenabruf](#QKAuswahl)
-  - [3.1 Allgemein](#120522_15:38:01)
-    - [3.1.1 Ergebnisabruf Tabelle](#120522_15:38:28)
-    - [3.1.2 Ergebnisabruf Grafik](#120522_16:52:13)
-  - [3.2 Auswahl Qualitätskomponenten](#123)
-    - [3.2.1 Biologische QK](#QKBio)
-      - [3.2.1.1 Fischfauna](#QKFischfauna)
-      - [3.2.1.2 Fischfauna (Fischartinfo)](#QKFischfaunaArtInfo)
-      - [3.2.1.3 Phytoplankton](#QKPhytoplankton)
-      - [3.2.1.4 Makrophyten/Phytobenthos](#QKBenPhyto)
-      - [3.2.1.5 Makrozoobenthos](#QKBenZoo)
-    - [3.3.1 Chemische QK](#120225_17:13:58)
-      - [3.3.1.1 Schadst./Bakt. in Wasserphase](#QKChemWas)
-      - [3.3.1.2 Schadstoffe in Schwebstoffen](#QKChemSch)
-      - [3.3.1.3 Schadstoffe im Sediment](#QKChemSed)
-      - [3.3.1.4 Schadstoffe in Biota](#QKChemBio)
-    - [3.4.1 Physik.-chemische QK](#QKPhyschem)
-    - [3.5.1 Hydromorphologische QK](#QKHydro)
-    - [3.6.1 Meteorologie](#QKMeteo)
-- [4 Persönliche Daten / Kennwort](#120225_17:37:07)
+* TOC
+{:toc}
 
 
 ## <a id="anmeldung"></a>1 Anmeldung
