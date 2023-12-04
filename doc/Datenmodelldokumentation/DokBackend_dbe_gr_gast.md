@@ -8,5 +8,4 @@ nav_order: 2
 
 # Gast
 
-* TOC
-{:toc}
+## Inhalt
